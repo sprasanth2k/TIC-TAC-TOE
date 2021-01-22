@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJw4yaHDGHbNgm87cBQ6juFXPx14RKFddx1A&usqp=CAU">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="tictactoe.css">
+
+    </head>
+    <body>
+        <div class="header" id="header">
+            TIC TAC TOE
+        </div>
+
+        <div class="xo-board" id="xo-board">
+            <div class="cell"><button id="1" onmouseover="hoverfunc(this.id)" onmouseout="nonhoverfunc(this.id)" onclick="clickfunc(this.id)"></button></div>
+            <div class="cell"><button id="2" onmouseover="hoverfunc(this.id)" onmouseout="nonhoverfunc(this.id)" onclick="clickfunc(this.id)"></button></div>
+            <div class="cell"><button id="3" onmouseover="hoverfunc(this.id)" onmouseout="nonhoverfunc(this.id)" onclick="clickfunc(this.id)"></button></div>
+            <div class="cell"><button id="4" onmouseover="hoverfunc(this.id)" onmouseout="nonhoverfunc(this.id)" onclick="clickfunc(this.id)"></button></div>
+            <div class="cell"><button id="5" onmouseover="hoverfunc(this.id)" onmouseout="nonhoverfunc(this.id)" onclick="clickfunc(this.id)"></button></div>
+            <div class="cell"><button id="6" onmouseover="hoverfunc(this.id)" onmouseout="nonhoverfunc(this.id)" onclick="clickfunc(this.id)"></button></div>
+            <div class="cell"><button id="7" onmouseover="hoverfunc(this.id)" onmouseout="nonhoverfunc(this.id)" onclick="clickfunc(this.id)"></button></div>
+            <div class="cell"><button id="8" onmouseover="hoverfunc(this.id)" onmouseout="nonhoverfunc(this.id)" onclick="clickfunc(this.id)"></button></div>
+            <div class="cell"><button id="9" onmouseover="hoverfunc(this.id)" onmouseout="nonhoverfunc(this.id)" onclick="clickfunc(this.id)"></button></div>
+        </div>
+        <div class="x-won" id="x-won">
+            X won the game
+            <button class="restart" onclick="restartfunc()">RESTART</button>
+        </div>
+        <div class="o-won" id="o-won">
+            O won the game
+            <button class="restart" onclick="restartfunc()">RESTART</button>
+        </div>
+        <div class="draw" id="draw">
+            Match draw
+            <button class="restart" onclick="restartfunc()">RESTART</button>
+        </div>
+
+    </body>
+    <script src="tictactoe.js"></script>
+</html>
