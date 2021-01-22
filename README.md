@@ -7,4 +7,4 @@ Basic tic tac toe game commonly called as XO game.
     [3] Basic html tags and css components.
     [4] Basic knowledge of javascript and JS HTML DOM.
 
-Click here ➡[Play](https://lucid-jackson-5ba41a.netlify.app/tictactoe.html)⬅ and enjoy the game🤑😉.
+Click here ➡[Play](https://sprasanth2k.netlify.app/tictactoe.html)⬅ and enjoy the game🤑😉.
