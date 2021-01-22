@@ -43,6 +43,7 @@ function clickfunc(n)
 
     c++;
     
+    document.getElementById(n).disabled=true;
     document.getElementById(n).style.cursor="not-allowed";
     document.getElementById(n).style.background="transparent";
     document.getElementById(n).style.color="black";
