@@ -70,7 +70,7 @@ function clickfunc(n)
         document.body.style.background="rgba(0,0,0,0.9)";
         document.getElementById("header").innerHTML="GAME OVER";
     }
-    if(c==9)
+    else if(c==9)
     {
         document.getElementById("x-won").style.display="none";
         document.getElementById("o-won").style.display="none";
